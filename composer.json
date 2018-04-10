@@ -21,6 +21,8 @@
         "zendframework/zend-cache" : "^2.0.3"
     },
     "autoload": {
-        "psr-0": { "Zithan/VisualCaptcha": "src/" }
+        "psr-4": {
+            "Zithan\\VisualCaptcha\\": "src/"
+        }
     }
 }
