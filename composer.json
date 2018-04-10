@@ -1,0 +1,29 @@
+{
+    "version": "0.0.8",
+    "name": "zithan/visualcaptcha-noaudio",
+    "description": "PHP library for visualCaptcha. Still requires you to have the front-end companion.",
+    "keywords": ["captcha", "visualCaptcha", "security", "no audio"],
+    "homepage": "http://zithan.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zithan",
+            "email": "zithan@163.com",
+            "homepage": "http://zithan.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zithan/visualCaptcha-noAudio/issues"
+    },
+    "require": {
+        "php": ">=5.3",
+        "zendframework/zend-cache" : "^2.0.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": { "visualCaptcha": "src/" }
+    }
+}
