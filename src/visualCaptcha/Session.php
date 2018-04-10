@@ -1,6 +1,6 @@
 <?php
 
-namespace visualCaptcha;
+namespace Zithan\VisualCaptcha;
 
 class Session {
     private $namespace = '';
