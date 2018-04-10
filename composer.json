@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zithan\\VisualCaptcha\\": "src/"
+            "Zithan\\VisualCaptcha\\": "src/visualCaptcha"
         }
     }
 }
