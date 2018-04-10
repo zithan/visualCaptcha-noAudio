@@ -17,8 +17,7 @@
         "issues": "https://github.com/zithan/visualCaptcha-noAudio/issues"
     },
     "require": {
-        "php": ">=5.3",
-        "zendframework/zend-cache" : "^2.0.3"
+        "php": ">=5.3"
     },
     "autoload": {
         "psr-4": {

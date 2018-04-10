@@ -2,7 +2,7 @@
 
 namespace Zithan\VisualCaptcha;
 
-use Zend\Cache\StorageFactory;
+//use Zend\Cache\StorageFactory;
 
 class Captcha {
     // Object that will have a reference for the session object
@@ -21,7 +21,7 @@ class Captcha {
     // All the cache options
     // Theses options are the related to \Zend\Cache\Storage
     // By default, it´s been populated as null on Constructor, but you can use array options of Cache ZF2 backend   
-    private $cache;
+    //private $cache;
     
     // @param session is the default session object
     // @param defaultImages is optional. Defaults to the array inside ./images.json. The path is relative to ./images/
@@ -56,7 +56,8 @@ class Captcha {
     private function setCache($cached, $options = null)
     {
         if($cached)
-            return StorageFactory::factory($options);
+            return false;
+            //return StorageFactory::factory($options);
         
         return false;
     }
